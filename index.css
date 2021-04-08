@@ -3,9 +3,10 @@
     font-weight: 600;
     background-color: whitesmoke;
     height: 10%;
+    font-size: 40px;
 }
 #intrest{
-    
+  /* margin-top: 8%;   */
 }
 body{
     margin: 0%;
@@ -14,6 +15,10 @@ body{
     background-color: lightgray;
     width: 100%;
     height: 50%;
+    text-align: center;
+    color: brown;
+    font-size: 100px;
+    font-weight: 700;
 }
 #two{
     background-color: purple;
@@ -22,21 +27,30 @@ body{
 }
 .buttion_container{
     display: inline-block;
-    height: 10%;
+    height: 40%;
     width: 35%;
     margin-bottom: 20px;
-    background-color: red;
+    background-color: lightgreen;
     text-align: center;
-    margin-top: -10px;
+   margin-top: -100px;
+    margin-left: 140px;
 }
 a {
     color: #0060B6;
     text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
 }
 
 a:hover 
 {
-     color:#00A0C6; 
+     color:black; 
      text-decoration:none; 
      cursor:pointer;  
+     height: 120%;
+     width: 110%;
 }
+
+
