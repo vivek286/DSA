@@ -4,18 +4,20 @@ body{
 }
 section{
     background-color: maroon;
-    height: auto;
+    height: 400%;
     width: 100%;
 }
-#next{
-    height: 10%;
-    width: 10%;
-    background-color: red;
-    height: 100%;
-    position: fixed;
-    
-}
-div{
-    display: inline-block;
 
+i{
+    font-size: 30px;
+    margin-top: 20%;
+    display: inline-block;
+}
+#prev{
+   font-size: 40px;
+   float: left;
+}
+#next{
+    font-size: 40px;
+float: right;
 }
