@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    background-color: maroon;
+}
+section{
+    background-color: maroon;
+    height: auto;
+    width: 100%;
+}
+#next{
+    height: 10%;
+    width: 10%;
+    background-color: red;
+    height: 100%;
+    position: fixed;
+    
+}
+div{
+    display: inline-block;
+
+}
