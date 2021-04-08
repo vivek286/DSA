@@ -1,8 +1,9 @@
 #welcome{
     text-align: center;
     font-weight: 600;
-    background-color: whitesmoke;
-    height: 10%;
+    background-color: black;
+    color: white;
+    height: 8%;
     font-size: 40px;
 }
 

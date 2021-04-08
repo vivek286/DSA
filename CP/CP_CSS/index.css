@@ -3,43 +3,48 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .top-container {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: center;
-  }
-  
-  .header {
-    padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
-    text-align: center;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  /* #DSA{
-      height: 10%;
-      width: 30%;
-      background-color: red;
-      display: inline;
-      text-decoration: none;
-      text-transform: none;
-      float:right;
-      margin-top: -20px;
-  } */
-  .sticky + .content {
-    padding-top: 102px;
-  }
   section{
       height: 100%;
       width: 100%;
       background-color: purple;
+  }
+  ul{
+      display: inline-block;
+      justify-content:space-between;
+      margin-left: 14%;
+      margin-top: 2%;
+  }
+  label{
+      color: black;
+      font-size: 30px;
+      font-weight: 700;
+      
+  }
+  ul li{
+      display: block;
+  }
+  section>div{
+      display: inline-block;
+      width: 32%;
+      height: 100%;
+      margin-top: 2%;
+  }
+  #begg{
+      background-color: red;
+  }
+  #medi{
+      background-color: blue;
+  }
+  #hard{
+      background-color: maroon;
+  }
+  div>ul{
+      list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+  }
+  a:hover{
+      color: black;
+      text-decoration: none;
   }
