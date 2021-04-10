@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    background-color: maroon;
+    background-color: white;
 }
 section{
     background-color: maroon;
@@ -16,8 +16,45 @@ i{
 #prev{
    font-size: 40px;
    float: left;
+   
 }
 #next{
     font-size: 40px;
 float: right;
+}
+label{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    float: left;
+    margin-left: 5%;
+    padding-bottom: 8%;
+
+}
+.outer_intro{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    background-color: grey;
+}
+.topic_intro{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    }
+.example{
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    color: black;
+    height: auto;
+    
+    float: left;
 }
